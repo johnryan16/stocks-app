@@ -17,7 +17,11 @@
 }
 
 .App-date {
-  color: #999999
+  color: #999999;
+}
+
+.App-edit {
+  color: #61dafb;
 }
 
 .App-link {
