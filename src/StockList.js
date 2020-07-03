@@ -9,7 +9,7 @@ function StockList(props) {
     return <List style={{maxHeight: '50vh', overflow: 'auto'}}>
                 {
                     React.Children.toArray(
-                        items.map((item) => <StockListItem name={item.name}/>)
+                        items.map((item) => <StockListItem item={item}/>)
                     )
                 }
            </List>
